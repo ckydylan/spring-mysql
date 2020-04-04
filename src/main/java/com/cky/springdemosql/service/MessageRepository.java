@@ -1,4 +1,4 @@
-package com.cky.springdemosql.repository;
+package com.cky.springdemosql.service;
 
 
 import com.cky.springdemosql.entity.Message;

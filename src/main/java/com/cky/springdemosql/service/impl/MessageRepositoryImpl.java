@@ -1,7 +1,7 @@
-package com.cky.springdemosql.repository.impl;
+package com.cky.springdemosql.service.impl;
 
 import com.cky.springdemosql.entity.Message;
-import com.cky.springdemosql.repository.MessageRepository;
+import com.cky.springdemosql.service.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;

@@ -1,7 +1,7 @@
 package com.cky.springdemosql;
 
 import com.cky.springdemosql.entity.Message;
-import com.cky.springdemosql.repository.MessageRepository;
+import com.cky.springdemosql.service.MessageRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +24,7 @@ public class MessageRepositoryTest {
 
     @Test
     public void testInsert() {
-        Message message = Message.builder().msgText("123").msgSummary("321").build();
+        Message message = Message.builder().msgText("啊啊啊").msgSummary("321").build();
         int num = messageRepository.insert(message);
         log.info("num---->" + num);
     }
